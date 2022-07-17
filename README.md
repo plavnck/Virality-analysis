@@ -9,3 +9,7 @@ Data is given as test_data.csv file. There you can see some statistics about gam
 
 1. Calculate number of organic users that joined the game due to virality caused by marketing users
 2. Calculate extra revenue due to virality 
+
+## Analysis method
+
+Since represented data is not distributed normally (both number of users and revenue), correlation is calculated using Spearmen coefficient. After data-filtering and correlation analysis I used linear regression to calculate the virality impact.
